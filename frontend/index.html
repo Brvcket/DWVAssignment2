@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Traffic Globe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    
+<body>
+  <div id="sidebar">
+    <h3>Top Locations</h3>
+    <div id="top-locations">Loading...</div>
+  </div>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://esm.sh/three@0.158.0",
+        "three/addons/controls/": "https://unpkg.com/three@0.158.0/examples/jsm/controls/",
+        "three-globe": "https://esm.sh/three-globe@2.30.0"
+      }
+    }
+  </script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

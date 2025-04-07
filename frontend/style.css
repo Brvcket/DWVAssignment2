@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  #sidebar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  
+  #top-locations {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .location {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
